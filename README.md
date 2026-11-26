@@ -5,7 +5,7 @@ Plataforma acadêmica de indicadores energéticos públicos e simulação no Ama
 ## Executar
 Abra index.html em um servidor estático. O GitHub Pages pode servir a raiz da branch main.
 
-## v1.3.1
+## v1.4
 Dashboard, cadastro local demonstrativo, filtros, exclusão, exportação JSON e consulta à API pública de municípios do IBGE. Dados locais ficam no navegador. Não há conexão com infraestrutura elétrica nem telemetria real.
 
 Inclui painel DEC/FEC simulado, explorador municipal e mapa administrativo Leaflet/IBGE. Revisão estática de validação e armazenamento realizada; testes de navegador e chamadas externas pendentes.
@@ -15,3 +15,6 @@ Backend independente em backend/. Execute pip install -r requirements.txt e uvic
 
 ## SPECTION
 Veja docs/SPECTION.md. Integrações ANEEL/ONS/INMET ainda planejadas.
+
+## Analytics v1.4
+Contagens de registros locais, filtro municipal, gráfico por categoria e exportação CSV com proteção básica contra fórmulas. Não representa indicadores elétricos reais. Testes de execução pendentes.

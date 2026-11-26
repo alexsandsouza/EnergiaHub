@@ -1,4 +1,4 @@
-# SPECTION — EnergiaHub v1.3.1
+# SPECTION — EnergiaHub v1.4
 ## Product Brief
 Organizar indicadores públicos agregados e registros acadêmicos simulados por município.
 ## PRD
@@ -16,3 +16,6 @@ Validar fontes energéticas públicas, autenticação, indicadores agregados, ma
 
 ## Revisão v1.3.1
 Validação de registros persistidos, tratamento de falha de armazenamento, rejeição de descrição vazia, validação de resposta IBGE e rótulos acessíveis. Testes dinâmicos pendentes.
+
+## Analytics v1.4
+Contagens de registros locais, filtro municipal, gráfico por categoria e exportação CSV com proteção básica contra fórmulas. Não representa indicadores elétricos reais. Testes de execução pendentes.

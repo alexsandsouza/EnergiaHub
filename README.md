@@ -18,3 +18,6 @@ Veja docs/SPECTION.md. Integrações ANEEL/ONS/INMET ainda planejadas.
 
 ## Analytics v1.4
 Contagens de registros locais, filtro municipal, gráfico por categoria e exportação CSV com proteção básica contra fórmulas. Não representa indicadores elétricos reais. Testes de execução pendentes.
+
+## API central v1.9 (prévia)
+Configure DATABASE_URL para um PostgreSQL de desenvolvimento e ENERGIA_ADMIN_TOKEN com um segredo aleatório de pelo menos 32 caracteres no ambiente do servidor. Em backend/, instale requirements.txt e execute uvicorn central:app --host 127.0.0.1. Swagger em /docs. Use o token Bearer apenas em cliente administrativo confiável; nunca no frontend público. Não há JWT, contas individuais, CORS ou sincronização com o frontend nesta versão. O backend demo main.py continua separado. Não exponha a API sem HTTPS e revisão de segurança. Testes e implantação pendentes.
